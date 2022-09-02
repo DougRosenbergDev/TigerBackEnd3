@@ -15,8 +15,8 @@ namespace TigerPhoneAPI.Models
         public string Type { get; set; }
         public string Model { get; set; }
         public string PhoneNumber { get; set; }
-        public int PlanId { get; set; }
-        [JsonIgnore]
-        public virtual Plan? Plan { get; set; }
+        //public int PlanId { get; set; }
+        //[JsonIgnore]
+        //public virtual Plan? Plan { get; set; }
     }
 }
