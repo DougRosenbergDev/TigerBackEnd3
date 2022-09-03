@@ -13,5 +13,6 @@ namespace TigerPhoneAPI.Models
         public int DeviceId { get; set; }
         public string Type { get; set; }
         public string Model { get; set; }
+        public string PhoneNumber { get; set; }
     }
 }
